@@ -1,0 +1,75 @@
+.continer {
+    max-width: 400px;
+    margin: 20vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgb(174, 255, 0)
+}
+
+
+#display {
+    position: relative;
+
+    border-bottom: 1px solid green;
+    border-left: 1px solid green;
+    border-top: 1px solid green;
+    border-right: 1px solid green;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    width: 282px;
+}
+
+.buttons {
+    display: grid;
+    border-bottom: 1px solid green;
+    border-left: 1px solid green;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons>div {
+    border-top: 1px solid green;
+    border-right: 1px solid green;
+}
+
+.button {
+    border: 0.5px solid green;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#equal {
+    background-color: lime;
+    color: white;
+}
+
+.button:hover {
+    background-color: green;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+#equal:hover {
+    background-color: green;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.delete {
+    position: absolute;
+    bottom: 518px;
+    left: 820px;
+    width: 100px;
+    height: 103px;
+}
+
+.total {
+    display: flex;
+    gap: 200px;
+   
+}
+.style{
+    width: 100px;
+}
